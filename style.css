@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(74, 17, 160, 0.566);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pannel {
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+    background-color: rgba(224, 100, 70, 0.701);
+    border-radius: 8px;
+}
+
+#ptop {
+    padding: 0px 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(164, 117, 60, 0.811);
+
+}
+
+.ele {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+
+}
+
+.box {
+    padding: 16px;
+    border-radius: 5px;
+    background-color: rgba(249, 247, 249, 0.265);
+    font-weight: 600;
+    font-size: 27px;
+    border-radius: 9px;
+}
+
+#pbuttom {
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    font-size: 25px;
+
+
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(48, 104, 48, 0.84);
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+:hover.circle {
+    background-color: green;
+    cursor: pointer;
+}
+
+#ball {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: fixed;
+
+}
